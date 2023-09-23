@@ -1,0 +1,41 @@
+body {  /* CUANDO DE PONE BODY SIN EL . ESTAMOS SELECCIONNDO AL BODY COMPLETO*/
+    background: #f0f3f5;
+    color: #fff;
+}
+
+header {
+    background: #9aca48;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contenido-main { /* CUANDO SELECCIONAMOS CON EL . EJEM: .CONTENIDO-MAIN ESTAMOS SELECCIONANDO LA CLASE*/
+    margin-bottom: 20px;
+}
+
+main {
+    background: #fff;
+    color: #424242;
+    padding: 20px 0;
+}
+
+aside {
+    background: #dee5e8;
+    padding: 60px 0;
+    color: #0d47a1;
+}
+
+.widgets {
+    margin-bottom: 20px;
+}
+
+.widgets > div {
+   background: #2196f3;
+   color: #fff;
+   padding: 20px; 
+}
+
+footer {
+    padding: 20px 0;
+    background: #1e1e1e;
+}
